@@ -11,6 +11,5 @@ rtde_io_.setToolDigitalOut(0, False)
 rtde_io_.setToolDigitalOut(1, True)
 
 # open the gripper
-
 rtde_io_.setToolDigitalOut(1, False)
 rtde_io_.setToolDigitalOut(0, True)
