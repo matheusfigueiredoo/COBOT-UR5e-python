@@ -25,4 +25,8 @@ Após a instalação, verificar a versão usando o comando:
 
 O robô é controlado remotamente por uma máquina com transporte de comunicação TCP/IP. É fundamental garantir que tanto o robô quanto a máquina estejam conectados na mesma rede.
 
-Após ligar o robô, configure 
+Após ligar o robô, configure-o pelo PolyScope para controle remoto. Depois, na aba de configurações, certifique-se de que esteja no modo **DHCP** e anote o **endereço de IP** mostrado na tela. Este endereço de ip é necessário para que o script desenvolvido em Python consiga controlar o robô, posteriormente.
+
+
+## Biblioteca ur_rtde
+
