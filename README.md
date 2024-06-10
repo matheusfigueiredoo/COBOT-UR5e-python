@@ -1,2 +1,4 @@
-# colaborative-robot-ur5e
- Tutorial to control a colaborative robot from Universal Robot
+# Colaborative Robot - COBOT
+# Universal Robots ur5e
+
+Este repostiório apresenta um tutorial de como controlar o robô colaborativo ur5e da Universal Robots. 
