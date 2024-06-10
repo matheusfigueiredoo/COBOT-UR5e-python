@@ -2,8 +2,7 @@
 
 Este repostiório apresenta um tutorial de como controlar o robô colaborativo ur5e da Universal Robots na linguagem de programação Python. 
 
-O desenvolvimento dos códigos foi feito com base nos exemplos mostrados no site: https://sdurobotics.gitlab.io/ur_rtde/index.html
-
+O desenvolvimento dos códigos foi feito com base nos exemplos mostrados no site: https://sdurobotics.gitlab.io/ur_rtde/index.html e no sitema operacional Windows 10 Pro x64.
 
 ## Setup
 
@@ -28,5 +27,19 @@ O robô é controlado remotamente por uma máquina com transporte de comunicaç�
 Após ligar o robô, configure-o pelo PolyScope para controle remoto. Depois, na aba de configurações, certifique-se de que esteja no modo **DHCP** e anote o **endereço de IP** mostrado na tela. Este endereço de ip é necessário para que o script desenvolvido em Python consiga controlar o robô, posteriormente.
 
 
-## Biblioteca ur_rtde
+## ur_rtde
+
+A biblioteca _ur_rtde_ consiste em três imports fundamentais para controle do braço:
+
+### 1. RTDE Control interface
+Usado para mover o robô e funções utilitárias.
+
+### 2. RTDE Receive interface
+Usado para receber dados do robô.
+
+### 3. RTDE IO interface
+Usado para configurar I/O digitais/analógicas e ajustar o controle deslizante de velocidade do robô.
+
+
+## Divisão do repositório
 
