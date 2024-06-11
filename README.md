@@ -43,3 +43,5 @@ Usado para configurar I/O digitais/analógicas e ajustar o controle deslizante d
 
 ## Divisão do repositório
 
+O repositório possui, atualmente, uma pasta com o desenvolvimento de códigos com base no movimento do tipo J (move_J) do braço. Futuramente, serão criadas novas pastas com códigos de controle do braço de movimentos do tipo L e P.
+Além disso, dentro da pasta _move_J_, há arquivos que incluem o desenvolvimento para a garra _gripper_ baseado em _SET-RESET_.
