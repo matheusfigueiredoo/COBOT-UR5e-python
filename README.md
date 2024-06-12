@@ -31,22 +31,22 @@ Após ligar o robô, configure-o pelo PolyScope para controle remoto. Depois, na
 
 A biblioteca _ur_rtde_ consiste em três imports fundamentais para controle do braço:
 
-## 1. RTDE Control interface
+### 1. RTDE Control interface
 Usado para mover o robô e funções utilitárias.
 
-## 2. RTDE Receive interface
+### 2. RTDE Receive interface
 Usado para receber dados do robô.
 
-## 3. RTDE IO interface
+### 3. RTDE IO interface
 Usado para configurar I/O digitais/analógicas e ajustar o controle deslizante de velocidade do robô.
 
 
 # Divisão do repositório
 
-## 1. Move J
+### 1. Move J
 
 O repositório possui, atualmente, uma pasta com o desenvolvimento de códigos com base no movimento do tipo J (move_J) do braço. Futuramente, serão criadas novas pastas com códigos de controle do braço de movimentos do tipo L e P.
 
-## 2. Gripper
+### 2. Gripper
 
 Há também uma pasta com comandos para controlar a garra _gripper_. Dentro da mesma, tem um outro arquivo README com mais detalhes.
