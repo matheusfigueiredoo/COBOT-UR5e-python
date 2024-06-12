@@ -1,3 +1,12 @@
+'''
+Este código executa um movimento simples do robô.
+
+Note que antes de executar o robô em si, é necessário mapear as posições.
+
+O mapeamento foi feito usando a função 'free way' pelo PolyScope, e o vetor de posições foi extraído com a função get_actual.
+'''
+
+
 import rtde_control
 import rtde_io
 import time
@@ -7,6 +16,10 @@ HOST = "" # ip adress
 rtde_io_ = rtde_io.RTDEIOInterface(HOST)
 rtde_c = rtde_control.RTDEControlInterface(HOST)
 
+# ============================================================================================
+
+# mapeamento das posições
+
 
 base = [-4.036092583333151, -1.3568094980767746, 2.373448912297384, -2.5869633160033167, -1.568237606679098, -2.1496198813067835]
 
@@ -14,7 +27,9 @@ a = [-4.076599899922506, -0.7863095563701172, 1.3410056273089808, -2.09002699474
 
 b = [-4.059603039418356, -0.7164358657649537, 1.383453671132223, -2.2590977154173792, -1.5111663977252405, -2.1496413389789026]
 
-# moviments sequency
+# ==================================================================================================
+
+# execução dos movimentos do robô
 
 rtde_c.moveJ(base)
 time.sleep(1)
