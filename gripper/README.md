@@ -16,4 +16,9 @@ Na configuração padrão, os bits representam as seguintes saídas:
 
 A figura abaixo ilustra o funcionamento do gripper:
 
-![](image.png)
+![](gripper-diagrama.png)
+
+
+## Fluxograma do funcionamento do Gripper:
+
+![](gripper-fluxo.png)
