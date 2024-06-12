@@ -6,10 +6,21 @@ rtde_io_ = rtde_io.RTDEIOInterface(HOST)
 
 
 
-# close the gripper
-rtde_io_.setToolDigitalOut(0, False)
-rtde_io_.setToolDigitalOut(1, True)
+# Fechamento do gripper
+
+'''
+Nessa linha, os argumentos do método representam os seguintes comandos:
+
+rtde_io_.setToolDigitalOut(bit desejado, setar ou resetar)
+
+bit desejado = 0 ou 1
+
+setar ou resetar = True ou False
+
+'''
+rtde_io_.setToolDigitalOut(0, False) # "False" reseta 0
+rtde_io_.setToolDigitalOut(1, True)  # "True" seta 1
 
 # open the gripper
-rtde_io_.setToolDigitalOut(1, False)
-rtde_io_.setToolDigitalOut(0, True)
+rtde_io_.setToolDigitalOut(1, False) # Reseta 1
+rtde_io_.setToolDigitalOut(0, True)  # Seta 0
