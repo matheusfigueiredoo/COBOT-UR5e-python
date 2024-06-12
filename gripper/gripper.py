@@ -9,7 +9,7 @@ rtde_io_ = rtde_io.RTDEIOInterface(HOST)
 # Fechamento do gripper
 
 '''
-Nessa linha, os argumentos do método representam os seguintes comandos:
+Os argumentos do método representam os seguintes comandos:
 
 rtde_io_.setToolDigitalOut(bit desejado, setar ou resetar)
 
