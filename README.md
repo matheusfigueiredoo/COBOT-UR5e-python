@@ -1,6 +1,8 @@
 # Colaborative Robot (COBOT) UR5e
 
-Este repostiório apresenta um tutorial de como controlar o robô colaborativo UR5e da Universal Robots na linguagem de programação Python. 
+Este repostiório apresenta um tutorial de como controlar o robô colaborativo UR5e da Universal Robots na linguagem de programação Python.
+
+O objetivo consiste em mostrar de forma enxuta como controlar o robô com Python e na aplicação DHCP.
 
 O desenvolvimento dos códigos foi feito com base nos exemplos mostrados no site: https://sdurobotics.gitlab.io/ur_rtde/index.html e no sitema operacional Windows 10 Pro x64.
 
